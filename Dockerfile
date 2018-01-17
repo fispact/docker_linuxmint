@@ -23,7 +23,7 @@ ENV RUN_SCRIPT ~/.bashrc
 RUN apt-get --yes update && \
     apt-get --yes upgrade && \
     apt-get --yes install gfortran g++ make cmake less python3 python3-pip python-dev && \
-    apt-get --yes install build-essential doxygen cloc rsync cpio libquadmath0 && \
+    apt-get --yes install git build-essential doxygen cloc rsync cpio libquadmath0 && \
     pip3 install --upgrade pip && \
     pip3 install pytest pytest-xdist pypact
 
