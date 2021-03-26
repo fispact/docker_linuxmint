@@ -1,4 +1,4 @@
-FROM vcatechnology/linux-mint:18.0
+FROM linuxmintd/mint19.3-amd64
 MAINTAINER UKAEA <admin@fispact.ukaea.uk>
 
 # Build-time metadata as defined at http://label-schema.org
