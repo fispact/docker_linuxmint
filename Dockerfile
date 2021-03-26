@@ -20,7 +20,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 ENV RUN_SCRIPT ~/.bashrc
 
 # Install additional packages
-RUN apt-get --yes update && \
+ #RUN apt-get --yes update && \
     #apt-get --yes upgrade && \
      # apt-get --yes install gfortran g++ make cmake less python3 python3-pip python-dev && \
      # apt-get --yes install git build-essential doxygen cloc rsync cpio libquadmath0 && \
